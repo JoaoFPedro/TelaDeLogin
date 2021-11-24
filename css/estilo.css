@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("../imagens/fundo01.jpg");
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    /*Estetica dos inputs */
+    
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1.6px solid black;
+    font-size: 16pts;
+    background-color: rgb(255, 255, 255, 0.5);
+    outline: none;
+    text-align: center;
+    
+}
+#corpo-form{
+    /* background-color: red; */ 
+    width: 420px;
+    margin: 100px auto 0px auto;
+    padding-right: 20px;
+    
+
+}
+#corpo-form h1{
+    text-align: center;
+    padding: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+a:hover{
+    text-decoration: underline;
+}
+input[type=submit]{
+      background-color: rgb(255, 255, 255, 0.5);
+      border: none;
+      color: white;
+      cursor: pointer;
+      
+      
+}
+::-webkit-input-placeholder {
+    color: white;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    color:white;  
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    color: white;  
+ }
+ 
+ :-ms-input-placeholder {  
+    color: white;  
+ }
+ div#msg-sucesso{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgb(50, 205, 50,.5);
+    border-radius: 30px;
+    border: 1.6px solid rgb(34, 139, 34);
+    outline: none;
+    text-align: center;
+    color:black;
+
+
+ }
+ div.msg-erro{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(168, 29, 29, 0.5);
+    border-radius: 30px;
+    border: 1.6px solid black;
+    outline: none;
+    text-align: center;
+    color:red;
+
+
+
+ }
